@@ -1,0 +1,99 @@
+body{
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+   font-family: 'Cairo', sans-serif;
+   background-image: url(casino-bg.jpg);
+   background-size: cover;
+}
+
+h1{
+    color: rgb(239, 175, 13);
+    font-size: 3.8rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-bottom: 0;
+
+}
+
+p{
+    margin-top: 0;
+    color: rgb(251, 254, 255)
+}
+.message{
+    color:rgb(196, 206, 107);
+    font-style:italic;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.cards,
+.sum{ 
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.button-parent{
+    display:flex;
+    margin-bottom: 20px ;
+}
+
+.btn-start,
+.btn-new-card{
+    background-color: rgb(227, 173, 36);
+    border:1px solid transparent;
+    margin-right:20px;
+    padding: 8px 28px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    font-style:initial;
+    color:rgb(16, 107, 68);
+    cursor: pointer;
+    transition: background-color 100ms ease-in-out , opacity 100ms;
+}
+
+.btn-start:hover,
+.btn-new-card:hover{
+   background-color: rgb(17, 116, 54);
+   color:rgb(227, 173, 36);
+}
+
+.btn-start:active,
+.btn-new-card:active{
+  opacity: .6;
+}
+
+.player-obj{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(193, 203, 102);
+ 
+}
+
+
+
+.btn-new-game{
+    background-color: rgb(196, 206, 107);
+    border: none;
+    padding: 8px 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: rgb(16, 107, 68);
+    cursor:pointer;
+    font-weight: 600;
+    transition: background-color 100ms ease-in-out, opacity 300ms ease-in-out;
+    font-style:italic;
+}
+
+.btn-new-game:hover{
+    background-color: rgb(17, 116, 54);
+    color:rgb(196, 206, 107);
+}
+
+.btn-new-game:active{
+    opacity:.5;
+}
