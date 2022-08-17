@@ -1,5 +1,6 @@
 body{
    margin: 0;
+   
    display: flex;
    justify-content: center;
    align-items: center;
@@ -14,10 +15,10 @@ body{
 
 h1{
     color: rgb(239, 175, 13);
-    font-size: 3.8rem;
-    letter-spacing: 2px;
+    font-size: 2.8rem;
+    /* letter-spacing: 2px; */
     font-weight: 800;
-    margin-bottom: 0;
+    margin-bottom :10px;
     text-align: center;
 
 }
@@ -40,20 +41,33 @@ p{
 }
 
 .button-parent{
-    display:flex;
-    margin-bottom: 20px ;
+    text-align: center;
 }
 
-.btn-start,
-.btn-new-card{
+
+
+.btn-start{
     background-color: rgb(227, 173, 36);
     border:1px solid transparent;
     margin-right:20px;
     margin-bottom: 20px;
-    padding: 8px 28px;
+    padding: 8px 18px;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
+    font-style:initial;
+    color:rgb(16, 107, 68);
+    cursor: pointer;
+    transition: background-color 100ms ease-in-out , opacity 100ms;
+}
+.btn-new-card{
+    background-color: rgb(227, 173, 36);
+    border:1px solid transparent;
+    margin-bottom: 20px;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
     font-style:initial;
     color:rgb(16, 107, 68);
     cursor: pointer;
@@ -91,6 +105,7 @@ p{
     font-weight: 600;
     transition: background-color 100ms ease-in-out, opacity 300ms ease-in-out;
     font-style:italic;
+    margin-bottom: 120px;
 }
 
 .btn-new-game:hover{
